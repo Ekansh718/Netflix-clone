@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.3;
+}
+nav .logo{
+    width:148px;
+    height:40px;
+    background-image:url(logo.png);
+    background-size: cover;
+    position: absolute;
+    top:23px;
+    left:174px;
+}
+nav .btn1{
+    width:123px;
+    height: 32px;
+    border:0.00001px solid azure;
+    background-color:transparent;
+    color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:28px;
+    right:275px;
+    border-color:azure;
+    font-size: 15px;
+    
+    
+}
+nav .btn2{
+    width:79px;
+    height:35px;
+    border-radius: 5px;
+    background-color:#E50914;
+    color: white;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 27px;
+    right:175px;
+    font-family:sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    padding:4px 0 0 0;
+    
+}
+.btn1 i{
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+h1{
+    width:870px;
+    height: 61.5px;
+    font-family: sans-serif;
+    font-size:40px;
+    font-weight:900;
+    position: absolute;
+    top:40%;
+    left:22%;
+}
+h3{
+    width: 870px;
+    height: 30.4px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    top:50.5%;
+    left:38%;
+}
+h4{
+    width: 806px;
+    height: 30.4px;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    position: absolute;
+    top:58.5%;
+    left:29%;
+}
+.nav2 {
+    width: 376.7px;
+    height: 57.4px;
+    background-color: transparent;
+    position: absolute;
+    border:0.1px solid azure;
+    border-radius: 5px;
+    top:65%;
+    left:31.5%;
+    /* padding-left:15px ; */
+}
+ .nav2 input{
+    width: 359.7px;
+    height: 56px;
+    /* font-weight: 200; */
+    background-color: transparent;
+    border:0.1 solid transparent;
+    border-radius: 5px;
+    padding-left: 15px; 
+    opacity: 5;
+    color:white;
+} 
+.nav2 input ::placeholder{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.btn3{
+    width: 201px;
+    height: 59px;
+    background-color: #E50914;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px;
+    position: absolute;
+    top:65%;
+    left:57%;
+    border-radius: 5px;
+}
+
+/*page 2 CSS*/
+.pg2{
+    width:80%;
+    height:100vh;
+}
+
+.pg2 h2{
+    font-family: sans-serif;
+    width: 485px;
+    height: 61.5;
+    font-size: 48px;
+    position: absolute;
+    top:133%;
+    left:11.5%;
+    font-weight: 900;
+}
+.pg2 p{
+    width: 485px;
+    height: 91px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top:143%;
+    left:11.5%;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+}
+.tv{
+    width:510px;
+    height: 364px;
+    position: absolute;
+    right: 180px;
+    top:115%;
+    
+}
+.yt{
+    
+    width: 372.1px;
+    height: 200px;
+    position: absolute;
+    right: 180px;
+    top:125.6%;
+    right: 16.5%;
+    z-index: -1;
+    
+}
+.bg1{
+    height:8px;
+    width:100%;
+    background-color: grey;
+    position: absolute;
+    bottom: -84%;
+    opacity: 0.3;
+}
